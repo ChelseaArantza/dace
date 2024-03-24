@@ -1,0 +1,29 @@
+body {
+    font-family: 'angkor', serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.my-custom-font {
+    font-family: "Courier New", monospace;
+}
+
+@media screen and (min-width: 640px) {
+    .flex-container {
+        display: flex;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    .sidebar {
+        flex: 0 1 300px;
+    }
+}
